@@ -1,0 +1,12 @@
+@import '../../libs/reset.scss';
+
+.gallery{
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    position: relative;
+    width: 90vw;
+    padding: 50px;
+    border-radius: 25px;
+}

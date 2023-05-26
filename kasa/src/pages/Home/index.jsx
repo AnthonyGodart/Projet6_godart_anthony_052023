@@ -1,8 +1,14 @@
+import Gallery from '../../components/Gallery'
+import styles from './home.module.css'
+
 function Home() {
   return (
-    <div>
-      <h1> Page d'accueil 🏠</h1>
-    </div>
+    <main>
+      <section className={styles.landscape}>
+        <h2>Chez vous, partout et ailleurs</h2>
+      </section>
+      <Gallery />
+    </main>      
   )
 }
 

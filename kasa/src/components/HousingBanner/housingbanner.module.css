@@ -1,0 +1,22 @@
+@import '../../libs/reset.scss';
+
+.banner{
+    display: flex;
+    width: 70vw;
+    height: 415px;
+    border-radius: 25px;
+    background-color: rgb(38, 62, 62);
+    position: relative;
+}
+img{
+    aspect-ratio: 1;
+}
+figcaption{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+}

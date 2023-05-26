@@ -1,0 +1,46 @@
+@import '../../libs/reset.scss';
+
+.error404 {
+    text-align: center;
+    color: #ff6060;
+    padding-bottom: 10px;
+}
+
+.error404 h1 {
+    font-size: 260px;
+    padding: 20px 0 10px;
+}
+
+.error404 p {
+    font-size: 24px;
+    padding-bottom: 100px;
+}
+
+.error404 a span {
+    text-decoration: underline;
+    color: #ff6060;
+}
+
+.error404 a span:hover {
+    color: #ffa5a5;
+    transition: 0.3s all;
+}
+
+@media screen and (max-width:1000px) {
+    .error404 h1 {
+        font-size: 25vw;
+    }
+
+    .error404 p {
+        font-size: 18px;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+
+    .error404 a span {
+        font-size: 14px;
+        padding-inline: 10px;
+    }
+
+}

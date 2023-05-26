@@ -1,0 +1,19 @@
+@import '../../libs/reset.scss';
+
+.hostContainer{
+    display: flex;
+    flex-direction: row;
+}
+.hostName{
+    display: flex;
+    color: #FF6060;
+    font-size: 18px;
+    align-items: center;
+    text-align: right;
+}
+.profilePic{
+    background-color: #C4C4C4;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}

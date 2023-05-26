@@ -1,19 +1,22 @@
-import PropTypes from 'prop-types'
+import styles from './card.module.css'
+import fetcher from '../../utils/fetcher'
+import { Link } from 'react-router-dom'
 
-function Card({ id, title, cover }) {
-    return (
-        <div style={{ display: 'flex', flexDirection: 'column', padding: 15 }}>
-            <span>{id}</span>
-            <img src={cover} alt="card cover" height={80} width={80} />
-            <span>{title}</span>
-        </div>
-    )
+const cardsData = await fetcher()
+
+function Card(){    
+     return (cardsData.map(cardData => {
+        return(
+            <Link to={"/Housing/"+cardData.id} key={cardData.id}>
+                <article className={styles.card}>
+                    <figure className={styles.figure}>
+                        <img className={styles.image} src={cardData.cover} alt="Background de la location" />
+                        <figcaption className={styles.figcaption}>{cardData.title}</figcaption>
+                    </figure>
+                </article>
+            </Link>
+        )}
+    ))
 }
- 
-Card.propTypes = {
-    id: PropTypes.string,
-    title: PropTypes.string,
-    cover: PropTypes.string,
-}
- 
+
 export default Card

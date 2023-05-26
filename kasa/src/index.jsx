@@ -1,21 +1,26 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import {createRoot} from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import About from './pages/About'
+import Error404 from './pages/Error404'
 import Home from './pages/Home'
-import Survey from './pages/Survey'
+import Housing from './pages/Housing'
+import Footer from './components/Footer'
 import Header from './components/Header'
-import ErrorPage from './components/Error'
 
-ReactDOM.render(
+const container = document.getElementById('app');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+root.render(
   <React.StrictMode>
     <Router>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/survey/:questionNumber" element={<Survey />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Housing/:id" element={<Housing />} />
+          <Route path="/Error404" element={<Error404 />} />
+        </Routes>
+      <Footer />    
     </Router>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 )

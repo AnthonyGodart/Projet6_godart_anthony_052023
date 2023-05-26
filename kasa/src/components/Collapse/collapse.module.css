@@ -1,0 +1,25 @@
+@import '../../libs/reset.scss';
+
+.collapse{
+    background-color: #E6E6E6;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 70vw;
+    color: #FF6060;
+}
+.collapse h3{
+    display: flex;
+    background-color: #FF6060;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.collapse p{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}

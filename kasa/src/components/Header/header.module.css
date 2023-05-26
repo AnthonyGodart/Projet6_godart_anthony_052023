@@ -1,0 +1,20 @@
+@import '../../libs/reset.scss';
+
+header{
+    font-family: 'Monserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: 10px;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #FF6060;
+}
+a:hover{
+    text-decoration: underline;
+}
