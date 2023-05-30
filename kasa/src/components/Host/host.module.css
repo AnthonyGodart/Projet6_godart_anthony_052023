@@ -12,6 +12,8 @@
     text-align: right;
 }
 .profilePic{
+    display: flex;
+    overflow: hidden;
     background-color: #C4C4C4;
     height: 64px;
     width: 64px;

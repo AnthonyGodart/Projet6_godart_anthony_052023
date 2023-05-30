@@ -5,11 +5,16 @@
     width: 70vw;
     height: 415px;
     border-radius: 25px;
-    background-color: rgb(38, 62, 62);
+    background-color: darkslategray;
     position: relative;
+    overflow: hidden;
 }
 img{
-    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 100%;
 }
 figcaption{
     width: 100%;

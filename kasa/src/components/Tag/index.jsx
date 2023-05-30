@@ -1,12 +1,12 @@
 import styles from './tag.module.css'
 
-function Tag(){
+function Tag(props){
     return (
         <ul className={styles.tagContainer}>
-            <li className={styles.tag}>Tag 1</li>
-            <li className={styles.tag}>Tag 2</li>
-            <li className={styles.tag}>Tag 3</li>
-            <li className={styles.tag}>Tag 4</li>
+            <li className={styles.tag}>{props.tags}</li>
+            <li className={styles.tag}>{props.tags}</li>
+            <li className={styles.tag}>{props.tags}</li>
+            <li className={styles.tag}>{props.tags}</li>
         </ul>
     )
 }
