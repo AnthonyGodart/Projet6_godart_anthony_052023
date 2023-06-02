@@ -34,3 +34,9 @@
     padding: 20px;
     bottom: 0;
 }
+
+@media screen and (max-width:430px){
+    .card{
+        max-height: 255px;
+    }
+}

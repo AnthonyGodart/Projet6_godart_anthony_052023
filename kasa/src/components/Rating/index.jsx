@@ -1,15 +1,10 @@
+import React from 'react'
 import styles from './rating.module.css'
 
-function Rating(){
-    return(
-        <div className={styles.rating}>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-        </div>
-    )
+function Rating(props){
+    return (
+            <i className={`fa-solid fa-star ${styles.rating} ${props.color}`}></i>
+    )    
 }
 
 export default Rating

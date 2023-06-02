@@ -1,10 +1,2 @@
 @import '../../libs/reset.scss';
 
-i{
-    color: #FF6060;
-    margin: 10px 0 10px 15px;
-}
-.rating{
-    display: flex;
-    align-items: center;
-}

@@ -27,10 +27,14 @@
     font-size: 48px;
     font-weight: 400;
 }
-.gallery{
-    display: flex;
-    background-color: #E6E6E6;
-    width: 90vw;
-    border-radius: 25px;
-    justify-content: center;
+
+@media screen and (max-width: 430px) {
+    .landscape{
+        border-radius: 10px;
+        height: 111px;
+        margin: 5px;
+    }
+    .landscape h2{
+        font-size: 24px;
+    }
 }

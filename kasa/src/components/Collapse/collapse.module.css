@@ -1,15 +1,15 @@
 @import '../../libs/reset.scss';
 
 .collapse{
-    background-color: #E6E6E6;
     margin: 10px 0;
     border-radius: 10px;
-    width: 70vw;
     color: #FF6060;
+    background: #E6E6E6;
 }
 .collapse h3{
     display: flex;
-    background-color: #FF6060;
+    background: #FF6060;
+    background-blend-mode: overlay;
     color: #FFF;
     padding: 5px;
     border-radius: 10px;
@@ -17,9 +17,17 @@
     align-items: center;
     font-size: 24px;
     font-weight: 400;
+    cursor: pointer;
 }
-.collapse p{
+.collapseContent{
+    background-color: #E6E6E6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding: 10px;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 100;
+    width: 100% !important;
+}
+.collapseContentHidden {
+    display: none;
 }

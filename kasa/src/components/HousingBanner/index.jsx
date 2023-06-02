@@ -16,14 +16,17 @@ function HousingBanner(props){
     function nextImage(){
         setCurrentIndex((nextIndex) => (nextIndex === props.imgSrc.length - 1 ? 0 : nextIndex + 1));
     };
-    return(
-        <figure className={styles.banner}>
-            <img src={props.imgSrc[currentIndex]} alt={"Carousel de "+props.title} />
-            <figcaption>
-                <span onClick={prevImage}>{leftArrow}</span>
-                <span onClick={nextImage}>{rightArrow}</span>
-            </figcaption>
-        </figure>
-    )
+    const showArrows = props.imgSrc.length > 1; // Vérifie s'il y a plus d'une photo
+
+    return (
+      <figure className={styles.banner}>
+        <img src={props.imgSrc[currentIndex]} alt={"Carousel de " + props.title} />
+        <figcaption>
+          {showArrows && <span onClick={prevImage}>{leftArrow}</span>}
+          {showArrows && <span onClick={nextImage}>{rightArrow}</span>}
+        </figcaption>
+        <span className={styles.counter}>{currentIndex + 1} / {props.imgSrc.length}</span>
+      </figure>
+    );
 }
 export default HousingBanner

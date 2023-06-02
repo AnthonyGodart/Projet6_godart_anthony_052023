@@ -29,12 +29,14 @@ function About() {
     <main>
       <div className={styles.landscape}>
       </div>
+      <div className={styles.collapseArea}>
         { aboutCollapseInfos.map(data => {
             return (
             <Collapse title={data.title} key={data.id}>{data.content}</Collapse>
             )
           })
         }
+      </div>
     </main>
   )
 }
