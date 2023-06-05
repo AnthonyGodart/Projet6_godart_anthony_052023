@@ -30,3 +30,9 @@ figcaption{
     left: 50%;
     color: #FFF;
 }
+@media screen and (max-width: 420px){
+    .banner{
+        width: 90vw;
+        max-height: 255px;
+    }
+}

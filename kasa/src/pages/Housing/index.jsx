@@ -39,7 +39,7 @@ function Housing() {
               </ul>
               <ul className={styles.rightList}>
                 <li><Host name={selectedHousing.host.name} picture={selectedHousing.host.picture}/></li>
-                <li>{rates.map((e, index) => (
+                <li className={styles.rating}>{rates.map((e, index) => (
                 <Rating key={index} color={parseInt(selectedHousing.rating) >= e ? styles.colored : styles.rating} />))}
                 </li>
               </ul>

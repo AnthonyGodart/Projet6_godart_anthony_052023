@@ -19,3 +19,8 @@
     width: 64px;
     border-radius: 50%;
 }
+@media screen and (max-width: 420px){
+    .hostName{
+        padding-right: 10px;
+    }
+}

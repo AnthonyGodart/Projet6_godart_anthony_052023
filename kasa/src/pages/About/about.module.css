@@ -17,3 +17,9 @@ main{
 .collapseArea{
     width: 70%;
 }
+
+@media screen and (max-width: 420px){
+    .collapseArea{
+        width: 100%;
+    }
+}
