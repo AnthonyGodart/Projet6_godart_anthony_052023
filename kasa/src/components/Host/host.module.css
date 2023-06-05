@@ -7,16 +7,17 @@
 .hostName{
     display: flex;
     color: #FF6060;
-    font-size: 18px;
+    font-size: 1.125em;
     align-items: center;
     text-align: right;
+    padding-right: 20px;
 }
 .profilePic{
     display: flex;
     overflow: hidden;
     background-color: #C4C4C4;
-    height: 64px;
-    width: 64px;
+    height: 4em;
+    width: 4em;
     border-radius: 50%;
 }
 @media screen and (max-width: 420px){

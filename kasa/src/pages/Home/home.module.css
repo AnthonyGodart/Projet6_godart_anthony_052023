@@ -26,7 +26,7 @@
 .landscape h2{
     color: #FFF;
     position: relative;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 400;
 }
 
@@ -39,7 +39,7 @@
         justify-content: flex-start;
     }
     .landscape h2{
-        font-size: 24px;
+        font-size: 1.5em;
         width: 70%;
         padding: 10px;
     }
