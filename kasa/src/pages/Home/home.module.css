@@ -1,4 +1,4 @@
-@import '../../libs/reset.scss';
+@import '../../libs/reset.css';
 
 .landscape{
     display: flex;
