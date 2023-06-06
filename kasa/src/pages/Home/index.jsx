@@ -5,7 +5,7 @@ function Home() {
   return (
     <main>
       <section className={styles.landscape}>
-        <h2>Chez vous, partout et ailleurs</h2>
+        <h1>Chez vous, partout et ailleurs</h1>
       </section>
       <Gallery />
     </main>      

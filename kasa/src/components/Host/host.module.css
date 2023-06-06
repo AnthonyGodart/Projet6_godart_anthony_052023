@@ -21,7 +21,13 @@
     border-radius: 50%;
 }
 @media screen and (max-width: 420px){
-    .hostName{
+    .hostName {
         padding-right: 10px;
+        font-size: 1em;
+    }
+
+    .profilePic {
+        height: 3em;
+        width: 3em;
     }
 }

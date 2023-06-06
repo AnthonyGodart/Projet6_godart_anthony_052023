@@ -32,6 +32,15 @@
     display: none;
 }
 
-@media screen and (max-width: 420px){
-    
+@media screen and (max-width: 420px) {
+    .collapse {
+        margin: 5px 0;
+    }
+    .collapse h3 {
+        font-size: 1.25em;
+    }
+    .collapseContent {
+        font-size: 1em;
+        padding: 5px;
+    }
 }
