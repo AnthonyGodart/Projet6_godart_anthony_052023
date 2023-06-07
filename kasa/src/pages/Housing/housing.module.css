@@ -3,8 +3,9 @@
 .head{
     display: flex;
     flex-direction: row;
-    width: 70vw;
+    width: 70%;
     justify-content: space-between;
+    margin: 10px 0;
 }
 .leftList{
     position: relative;
@@ -23,18 +24,18 @@ ul li{
 }
 h2{
     color: #FF6060;
-    font-size: 2.25em;
+    font-size: 2em;
     font-weight: 500;
 }
 h3{
     color: #FF6060;
-    font-size: 1.125em;
+    font-size: 1em;
     font-weight: 500;
 }
 .collapseContainer{
     display: flex;
     flex-direction: row;
-    width: 70vw;
+    width: 70%;
     justify-content: space-between;
 }
 .collapseContainer div{
@@ -53,16 +54,16 @@ h3{
     flex-direction: row;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 830px) {
     .head{
         flex-direction: column;
-        width: 90vw;
+        width: 90%;
     }
     h2{
-        font-size: 1.25em;
+        font-size: 1em;
     }
     h3{
-        font-size: 0.875em;
+        font-size: 0.78em;
     }
     ul{
         width: 100%;

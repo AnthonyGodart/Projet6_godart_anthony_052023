@@ -15,7 +15,7 @@
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.33em;
     font-weight: 400;
     cursor: pointer;
 }
@@ -24,7 +24,7 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 10px;
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 100;
     width: 100% !important;
 }
@@ -32,12 +32,15 @@
     display: none;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     .collapse {
         margin: 5px 0;
     }
     .collapse h3 {
-        font-size: 1.25em;
+        font-size: 1em;
+    }
+    .collapse svg{
+        width: 50%;
     }
     .collapseContent {
         font-size: 1em;

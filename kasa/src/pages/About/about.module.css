@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
 main{
-    font-family: 'Monserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    width: 90vw;
     align-items: center;
 }
 .landscape{
@@ -12,7 +8,7 @@ main{
     background-position: center;
     border-radius: 25px;
     height: 223px;
-    width: 90vw;
+    width: 90%;
 }
 .collapseArea{
     width: 70%;

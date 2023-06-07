@@ -14,19 +14,19 @@
     background-color: #FF6060;
     color: #FFF;
     width: fit-content;
-    height: 1.5em;
     padding: 5px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    font-size: 0.875em;
+    font-size: 0.78em;
     margin: 10px 10px 10px 0;
     white-space: nowrap;
 }
 
 @media screen and (max-width: 420px) {
     .tag {
-        margin-right: 0; /* Suppression de la marge à droite pour les tags de la dernière ligne */
-        margin-bottom: 10px; /* Espacement entre les tags sur les petits écrans */
+        font-size: 0.56em;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }

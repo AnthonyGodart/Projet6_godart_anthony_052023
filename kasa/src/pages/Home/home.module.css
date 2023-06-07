@@ -4,9 +4,10 @@
     display: flex;
     background-image: url('../../assets/images/home-lanscape.jpg');
     background-position: center;
+    background-size: cover;
     border-radius: 25px;
     height: 223px;
-    width: 90vw;
+    width: 100%;
     margin: 20px;
     color: #FFF;
     justify-content: center;
@@ -26,7 +27,7 @@
 .landscape h1{
     color: #FFF;
     position: relative;
-    font-size: 3em;
+    font-size: 2.67em;
     font-weight: 400;
 }
 
@@ -39,7 +40,7 @@
         justify-content: flex-start;
     }
     .landscape h1{
-        font-size: 1.5em;
+        font-size: 1.33em;
         width: 70%;
         padding: 10px;
     }

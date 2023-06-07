@@ -35,10 +35,33 @@
     font-size: 1em;
 }
 
-@media screen and (max-width:430px){
+@media screen and (max-width:950px) {
+    .figcaption{
+        font-size: 0.75em;
+    }
+}
+@media screen and (max-width:820px) {
+    .figcaption{
+        font-size: 0.7em;
+    }
+}
+@media screen and (max-width:750px) {
+    .figcaption{
+        font-size: 0.75em;
+    }
+}
+@media screen and (max-width:550px) {
+    .figcaption{
+        font-size: 0.7em;
+    }
+}
+@media screen and (max-width:470px){
     .card{
         width: 100%;
         max-height: 255px;
         margin:0;
+    }
+    .figcaption{
+        font-size: 1em;
     }
 }

@@ -7,12 +7,12 @@
 }
 
 .error404 h1 {
-    font-size: 16.25em;
+    font-size: 16em;
     padding: 20px 0 10px;
 }
 
 .error404 p {
-    font-size: 1.5em;
+    font-size: 2em;
     padding-bottom: 100px;
 }
 
@@ -28,18 +28,18 @@
 
 @media screen and (max-width:1000px) {
     .error404 h1 {
-        font-size: 25vw;
+        font-size: 5.33em;
     }
 
     .error404 p {
-        font-size: 1.125em;
+        font-size: 1em;
         text-align: center;
         padding-inline: 10px;
     }
 
 
     .error404 a span {
-        font-size: 14px;
+        font-size: 0.78em;
         padding-inline: 10px;
     }
 
