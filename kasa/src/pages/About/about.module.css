@@ -6,16 +6,20 @@ main{
 .landscape{
     background-image: url('../../assets/images/about-landscape.jpg');
     background-position: center;
+    background-size: cover;
     border-radius: 25px;
     height: 223px;
-    width: 90%;
+    width: 100%;
 }
 .collapseArea{
-    width: 70%;
+    width: 80%;
 }
 
 @media screen and (max-width: 420px){
     .collapseArea{
         width: 100%;
+    }
+    .landscape{
+        border-radius: 10px;
     }
 }

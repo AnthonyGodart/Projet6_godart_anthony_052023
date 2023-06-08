@@ -8,6 +8,11 @@
     height: 150px;
     align-items: center;
     justify-content: space-evenly;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 }
 footer svg{
     transform: scale(0.5);
@@ -16,10 +21,12 @@ footer svg{
     font-size: 1.33em;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:450px) {
     .footer a {
         display: flex;
         width: 100%;
+        left: 0;
+        bottom: 0;
     }
     footer svg {
         transform: scale(1);
