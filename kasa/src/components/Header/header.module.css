@@ -22,7 +22,7 @@ a:hover{
     }
     .link{
         text-transform: uppercase;
-        font-size: 0.67em;
+        font-size: 1.2em;
     }
     .link:not(:first-child){
         margin-left: 26px;

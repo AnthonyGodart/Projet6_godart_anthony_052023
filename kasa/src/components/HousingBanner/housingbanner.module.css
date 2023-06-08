@@ -36,4 +36,10 @@ figcaption{
         width: 90vw;
         max-height: 255px;
     }
+    figcaption span{
+        transform: scale(0.5);
+    }
+    .counter{
+        display: none;
+    }
 }
