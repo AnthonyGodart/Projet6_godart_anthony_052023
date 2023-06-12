@@ -30,8 +30,8 @@
 }
 .figcaption{
     position: absolute;
+    bottom: 0;
     padding: 0.5em;
-    bottom: -20px;
     font-size: 1em;
 }
 

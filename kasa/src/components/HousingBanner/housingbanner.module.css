@@ -15,7 +15,7 @@ img{
     object-fit: cover;
     width: 100%;
 }
-figcaption{
+.banner figcaption{
     width: 100%;
     display: flex;
     justify-content: space-between;
