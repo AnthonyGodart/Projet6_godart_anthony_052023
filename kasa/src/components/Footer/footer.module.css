@@ -21,6 +21,9 @@ footer svg{
 }
 
 @media screen and (max-width:450px) {
+    .footer{
+        opacity: 1 !important;
+    }
     .footer a {
         display: flex;
         width: 100%;
