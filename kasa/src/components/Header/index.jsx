@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import styles from './header.module.css'
 
 function Header() {
@@ -13,8 +13,12 @@ function Header() {
         </svg>
       </Link>      
       <nav>
-        <Link className={styles.link} to="/">Accueil</Link>
-        <Link className={styles.link} to="/about">A&nbsp;propos</Link>
+        <NavLink className={styles.link} to="/" style={({isActive}) => ({
+    textDecoration: isActive ? "underline" : "none"
+  })}>Accueil</NavLink>
+        <NavLink className={styles.link} to="/about" style={({isActive}) => ({
+    textDecoration: isActive ? "underline" : "none"
+  })}>A&nbsp;propos</NavLink>
       </nav>
     </header>
   )
