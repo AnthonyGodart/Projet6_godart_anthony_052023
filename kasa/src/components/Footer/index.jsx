@@ -11,7 +11,7 @@ function Footer() {
     if (documentHeight <= windowHeight) {
       setElementOpacity(1);
     } else {
-      setElementOpacity(0.3);
+      setElementOpacity(0.1);
     }
   };
   
@@ -28,7 +28,7 @@ function Footer() {
       if (scrollBottomPosition >= scrollBottomThreshold) {
         setElementOpacity(1);
       } else {
-        setElementOpacity(0.3);
+        setElementOpacity(0.1);
       }
     }
   };
